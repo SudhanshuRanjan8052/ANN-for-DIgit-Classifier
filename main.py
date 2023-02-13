@@ -1,6 +1,8 @@
 from PIL import Image
 import numpy as np
 import joblib
+import warnings
+warnings.filterwarnings('ignore')
 
 img = Image.open(r"filepath")
 
